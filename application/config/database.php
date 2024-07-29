@@ -48,12 +48,34 @@
 $active_group = 'default';
 $active_record = TRUE;
 
+// $db['default'] = array(
+// 	'hostname' => 'localhost',
+// 	'username' => 'postgres',
+// 	'password' => 'root',
+// 	'port' 	   => '5433',
+// 	'database' => 'plnnp-cico',
+// 	'dbdriver' => 'postgre',
+// 	'dbprefix' => '',
+// 	'pconnect' => TRUE,
+// 	'db_debug' => TRUE,
+// 	'cache_on' => FALSE,
+// 	'cachedir' => '',
+// 	'char_set' => 'utf8',
+// 	'dbcollat' => 'utf8_general_ci',
+// 	'swap_pre' => '',
+// 	'encrypt' => FALSE,
+// 	'compress' => FALSE,
+// 	'stricton' => FALSE,
+// 	'failover' => array(),
+// 	'save_queries' => TRUE
+// );
+
 $db['default'] = array(
-	'hostname' => '127.0.0.1',
+	'hostname' => 'localhost',
 	'username' => 'postgres',
-	'password' => 'b4nGgaM3laY4niBanGs4',
+	'password' => 'root',
 	'port' 	   => '5432',
-	'database' => 'db_siappro_new',
+	'database' => 'db_simpeg_absensi20210505',
 	'dbdriver' => 'postgre',
 	'dbprefix' => '',
 	'pconnect' => TRUE,
